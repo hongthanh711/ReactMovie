@@ -1,0 +1,21 @@
+.ghe {
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border-radius: 20%;
+
+  &.gheVip {
+    background-color: pink;
+  }
+
+  &.gheDangDat {
+    background-color: blueviolet;
+  }
+
+  &.daDat {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+}
